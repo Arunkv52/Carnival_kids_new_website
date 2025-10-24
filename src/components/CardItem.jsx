@@ -1,13 +1,5 @@
 import React from 'react'
-import {
-    Card,
-    CardAction,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
+
 import AboutImg from '../assets/mathematics_class.jpg'
 import Physical from '../assets/class-2.jpg'
 import English from '../assets/class-3.jpg'
@@ -39,30 +31,7 @@ const CardItem = () => {
             time: '10-12 AM',
             capacity: '50 Kids'
         },
-        {
-            cardtitle: 'Mathematics Class',
-            cardparagraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor',
-            image: English,
-            age: '3-5 years',
-            time: '10-12 AM',
-            capacity: '50 Kids'
-        },
-        {
-            cardtitle: 'Sport & Physical Class',
-            cardparagraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor',
-            image: AboutImg,
-            age: '3-5 years',
-            time: '10-12 AM',
-            capacity: '50 Kids'
-        },
-        {
-            cardtitle: 'English Class',
-            cardparagraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor',
-            image: AboutImg,
-            age: '3-5 years',
-            time: '10-12 AM',
-            capacity: '50 Kids'
-        }]
+        ]
 
 
 

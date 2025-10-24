@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Logo from '../assets/logo.png'
+import { Link } from "react-router";
 
 const Header = () => {
   const [isFixed, setIsFixed] = useState(false);
@@ -19,13 +20,12 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full top-0 left-0 z-50 transition-all duration-500 ease-in-out md:px-10 px-2 ${
-        isFixed
-          ? "fixed bg-white shadow-md translate-y-0"
-          : scrollY > 0
+      className={`w-full top-0 left-0 z-50 transition-all duration-500 ease-in-out md:px-10 px-0 ${isFixed
+        ? "fixed bg-white shadow-md translate-y-0"
+        : scrollY > 0
           ? "-translate-y-5 opacity-90"
           : "absolute bg-transparent"
-      }`}
+        }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
@@ -35,17 +35,18 @@ const Header = () => {
             alt="Rainbow"
             className="h-10 w-auto object-contain"
           />
-        
+
         </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <a href="#home" className="hover:text-[#7b5bff] transition">Home</a>
-          <a href="#about" className="hover:text-[#7b5bff] transition">About Us</a>
-          <a href="#classes" className="hover:text-[#7b5bff] transition">Curriculam</a>
-          <a href="#programs" className="hover:text-[#7b5bff] transition">Gallery</a>
-          <a href="#blog" className="hover:text-[#7b5bff] transition">Blog</a>
-          <a href="#contact" className="hover:text-[#7b5bff] transition">Contact</a>
+
+          <Link to={'/'} className="hover:text-[#7b5bff] transition">Home</Link>
+          <Link to={'/about'} className="hover:text-[#7b5bff] transition">About Us</Link>
+          <Link to={'/curriculum'} className="hover:text-[#7b5bff] transition">Curriculam</Link>
+          <Link to={'/gallery'} className="hover:text-[#7b5bff] transition">Gallery</Link>
+          <Link to={'/blog'} className="hover:text-[#7b5bff] transition">Blog</Link>
+          <Link to={'/contact'} className="hover:text-[#7b5bff] transition">Contact</Link>
         </nav>
 
         {/* Desktop Button */}
