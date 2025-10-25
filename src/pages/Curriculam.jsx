@@ -6,6 +6,13 @@ import Icon_34 from '../assets/34.svg'
 import VideoPopup from '../components/VideoPopup'
 import Footer from '../components/Footer'
 import Event from '../assets/about-04.png'
+import Wave from '../assets/hero-boy-2.png'
+import GirlPng from '../assets/about-girl.png'
+import AccordionNew from '../components/AccordionNew'
+import Bird1 from '../assets/bird-1.png'
+import Bird2 from '../assets/bird-2.png'
+import Bird3 from '../assets/bird-bottom.png'
+
 
 const Curriculam = () => {
   return (
@@ -67,51 +74,16 @@ const Curriculam = () => {
       </div>
 
       {/* wave start */}
-      <div className='md:flex justify-between items-center gap-5 py-20 px-20 bg-[#f4f4f4]'>
-        <div className='w-1/2'>
-          <img src={curriculumImg} alt='' />
+      <div className='px-50 py-20 wave-center'>
+        <div className=' md:flex justify-between items-center gap-5'>
+          <div className='w-1/2'>
+            <AccordionNew />
+          </div>
+          <div className='w-1/2'>
+            <img src={GirlPng} alt='' className='w-full h-[500px] object-contain' />
+          </div>
         </div>
-        <div className='w-1/2'>
-          <h5 className='text-5xl font-bold'>Practical Life</h5>
-          <p className='py-5'>
-            Children are naturally interested in activities that are done in the
-            day to day living like sweeping, mopping or washing clothes etc. The
-            activities of Practical Life are to help the child gain control and
-            coordination of his movement, help the child to gain independence
-            and thereby adapt to his society. The Practical Life Area has
-            materials that help children to acquire these skills. For example,
-            the various “dressing frames” help toddlers learn to button, zip,
-            and even tie a shoe lace. There are activities like washing hands,
-            washing clothes which are activities of our daily life. Children are
-            offered grace and courtesy activities in groups which help them
-            adapt to the society.
-          </p>
-          <div className='md:flex justify-start items-center gap-5 py-2'>
-            <span className='bg-[#c28b8b] p-1 rounded-[50px]'>
-              <img src={Icon_34} alt='' className=' relative -left-4' />
-            </span>
 
-            <div>
-              <p className='text-3xl font-bold'>Youth Development</p>
-              <p className='py-2 text-black/60'>
-                We help young people to grow into healthy, thriving adults by
-                offering supportive education.
-              </p>
-            </div>
-          </div>
-          <div className='md:flex justify-start items-center gap-5 py-2'>
-            <span className='bg-[#779ad3] p-1 rounded-[50px]'>
-              <img src={Icon_34} alt='' className=' relative -left-4' />
-            </span>
-            <div>
-              <p className='text-3xl font-bold'>Youth Development</p>
-              <p className='py-2 text-black/60'>
-                We help young people to grow into healthy, thriving adults by
-                offering supportive education.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Footer */}
