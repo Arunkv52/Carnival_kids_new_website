@@ -11,12 +11,12 @@ const Footer = () => {
   return (
     <>
       <footer
-        className='bg-cover bg-no-repeat bg-center h-auto px-6 md:px-20 md:py-10 py-5 text-gray-700'
+        className='bg-cover bg-no-repeat bg-center h-auto px-6 md:px-20 md:py-10 py-10 text-gray-700'
         style={{ backgroundImage: `url(${FooterImg})` }}
       >
         <div className='md:flex justify-evenly items-start gap-5'>
           <div className='md:w-[40%] w-full'>
-            <img src={Logo} alt='Rainbow Footer' className='w-24 mb-4' />
+            <img src={Logo} alt='Rainbow Footer' className='md:w-40 w-50 mb-4' />
             <p className='text-[18px]'>
               Where curiosity meets creativity, and learning becomes a joyful
               journey. Together, we nurture confident, independent, and

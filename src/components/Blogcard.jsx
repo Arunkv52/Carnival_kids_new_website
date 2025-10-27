@@ -4,7 +4,7 @@ import { CalendarDays, MessageSquare } from "lucide-react";
 const BlogCard = () => {
     return (
         <>
-            <div className="px-20 blog grid grid-cols-3 gap-0">
+            <div className="md:px-20 px-5 blog md:grid md:grid-cols-3 md:gap-0 grid grid-cols-1 gap-10">
                 {/* Blog 1 */}
                 <div className="max-w-sm bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                     {/* Blog Image */}

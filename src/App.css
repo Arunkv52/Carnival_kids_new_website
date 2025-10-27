@@ -83,3 +83,22 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .bg-abt {
+    background-image: url("./assets/About.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* or 'cover' depending on your design */
+    width: 100%;
+    height: 100dvh; /* okay for modern browsers */
+  }
+
+  .curriculam-bg {
+    background: url(./assets/curriculum.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+  }
+}

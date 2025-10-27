@@ -20,18 +20,18 @@ const Curriculam = () => {
       <div className='curriculam-bg'>
         <Header />
         <div className=' px-15 w-full py-20'>
-          <h2 className='md:text-5xl text-left relative top-20 left-[60%] font-bold '>
+          <h2 className='md:text-5xl text-2xl text-left md:relative md:top-20 md:left-[60%] relative top-12 -left-5  font-bold '>
             Welcome to our <br />
-            <span className='text-[#7b5bff]'>child care school</span>
+            <span className='text-[#7b5bff] text-6xl'>child care school</span>
           </h2>
         </div>
       </div>
-      <div className='md:flex justify-between items-center gap-5 py-20 px-20 bg-[#f4f4f4]'>
-        <div className='w-1/2'>
+      <div className='md:flex justify-between items-center gap-5 py-20 md:px-20 px-5 bg-[#f4f4f4]'>
+        <div className='md:w-1/2 w-full'>
           <img src={curriculumImg} alt='' />
         </div>
-        <div className='w-1/2'>
-          <h5 className='text-5xl font-bold'>
+        <div className='md:w-1/2 w-full'>
+          <h5 className='md:text-5xl text-4xl font-bold'>
             Discover Story Nurturing Young <br /> Minds at{' '}
             <span className='text-[#7b5bff]'> studykids</span>
           </h5>
@@ -74,12 +74,12 @@ const Curriculam = () => {
       </div>
 
       {/* wave start */}
-      <div className='px-50 py-20 wave-center'>
+      <div className='md:px-50 px-5 py-20 wave-center'>
         <div className=' md:flex justify-between items-center gap-5'>
-          <div className='w-1/2'>
+          <div className='md:w-1/2 w-full'>
             <AccordionNew />
           </div>
-          <div className='w-1/2'>
+          <div className='md:w-1/2 w-full'>
             <img src={GirlPng} alt='' className='w-full h-[500px] object-contain' />
           </div>
         </div>

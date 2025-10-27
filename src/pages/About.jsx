@@ -10,20 +10,20 @@ const About = () => {
     <>
       <div className='bg-abt'>
         <Header />
-        <div className='relative top-1/3 left-20 w-1/3'>
-          <h2 className='text-5xl font-bold'>
+        <div className='md:relative md:top-1/3 md:left-20 relative top-30 left-5 md:w-1/3 w-full'>
+          <h2 className='md:text-5xl text-3xl font-bold'>
             learn through hands-on{' '}
             <span className='text-[#007aff]'> experiences,</span>
             independence, and<span className='text-[#75389f]'> play.</span>
           </h2>
         </div>
       </div>
-      <div className='md:px-40 py-20 md:flex justify-around items-start gap-0 bg-[#f4f4f4]'>
-        <div className='w-[40%]'>
+      <div className='md:px-40 px-5 py-20 md:flex justify-around items-start gap-0 bg-[#f4f4f4]'>
+        <div className='md:w-[40%] w-full'>
           <img src={AboutImg} alt='' />
         </div>
-        <div className='w-[60%]'>
-          <h4 className='text-6xl'>
+        <div className='md:w-[60%] w-full'>
+          <h4 className='md:text-6xl text-4xl md:pt-0 pt-10'>
             Montessori{' '}
             <span className='text-[#007aff] font-bold'> Education</span>
           </h4>
@@ -77,8 +77,8 @@ const About = () => {
         </div>
       </div>
       <div className='bg-bottom py-20'>
-        <div className='px-20'>
-          <h5 className='text-white text-5xl w-1/2'>
+        <div className='md:px-20 px-5'>
+          <h5 className='text-white md:text-5xl text-3xl md:w-1/2 w-full'>
             Children are naturally interested in activities that are done in the
             day to day living like sweeping, mopping or washing clothes etc
           </h5>
