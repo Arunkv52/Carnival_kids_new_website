@@ -13,13 +13,12 @@ import Bird1 from '../assets/bird-1.png'
 import Bird2 from '../assets/bird-2.png'
 import Bird3 from '../assets/bird-bottom.png'
 
-
 const Curriculam = () => {
   return (
     <>
       <div className='curriculam-bg'>
         <Header />
-        <div className=' px-15 w-full py-20'>
+        <div className=' px-15 w-full py-20 hidden md:block'>
           <h2 className='md:text-5xl text-2xl text-left md:relative md:top-20 md:left-[60%] relative top-12 -left-5  font-bold '>
             Welcome to our <br />
             <span className='text-[#7b5bff] text-6xl'>child care school</span>
@@ -32,13 +31,15 @@ const Curriculam = () => {
         </div>
         <div className='md:w-1/2 w-full'>
           <h5 className='md:text-5xl text-4xl font-bold'>
-            Discover Story Nurturing Young <br /> Minds at{' '}
-            <span className='text-[#7b5bff]'> studykids</span>
+            A Child-Centered Montessori
+            <span className='text-[#7b5bff]'> Learning Journey</span>
           </h5>
           <p className='py-5'>
-            The Y is dedicated to providing comprehensive programs and services
-            that enrich communities — and all of the people who live in them —
-            across the country in fulfillment of our mission.
+            At Cranival Kids, our curriculum is rooted in the Montessori
+            philosophy, which encourages children to explore, discover, and
+            learn at their own pace. We focus on nurturing independence,
+            creativity, critical thinking, and emotional well-being through
+            hands-on learning experiences.
           </p>
           <div className='md:flex justify-start items-center gap-5 py-2'>
             <span className='bg-[#c28b8b] p-1 rounded-[50px]'>
@@ -46,10 +47,11 @@ const Curriculam = () => {
             </span>
 
             <div>
-              <p className='text-3xl font-bold'>Youth Development</p>
+              <p className='text-3xl font-bold'>Develop real-world skills</p>
               <p className='py-2 text-black/60'>
-                We help young people to grow into healthy, thriving adults by
-                offering supportive education.
+                By engaging in meaningful tasks, children gain confidence, learn
+                to care for themselves and their surroundings, and develop
+                habits that support lifelong success.
               </p>
             </div>
           </div>
@@ -58,10 +60,14 @@ const Curriculam = () => {
               <img src={Icon_34} alt='' className=' relative -left-4' />
             </span>
             <div>
-              <p className='text-3xl font-bold'>Youth Development</p>
+              <p className='text-3xl font-bold'>
+                Grow socially and emotionally
+              </p>
               <p className='py-2 text-black/60'>
-                We help young people to grow into healthy, thriving adults by
-                offering supportive education.
+                By nurturing a safe and supportive space, we help children
+                become confident individuals who trust themselves, connect
+                easily with others, and handle new situations with courage and
+                optimism.
               </p>
             </div>
           </div>
@@ -80,10 +86,13 @@ const Curriculam = () => {
             <AccordionNew />
           </div>
           <div className='md:w-1/2 w-full'>
-            <img src={GirlPng} alt='' className='w-full h-[500px] object-contain' />
+            <img
+              src={GirlPng}
+              alt=''
+              className='w-full h-[500px] object-contain'
+            />
           </div>
         </div>
-
       </div>
 
       {/* Footer */}

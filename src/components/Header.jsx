@@ -35,7 +35,7 @@ const Header = () => {
             src={Logo}
             alt='Rainbow'
             className={`object-contain transition-all duration-500 ease-in-out ${
-              isFixed ? 'h-10' : 'h-30'
+              isFixed ? 'h-12' : 'md:h-30 h-15'
             }`}
           />
         </div>

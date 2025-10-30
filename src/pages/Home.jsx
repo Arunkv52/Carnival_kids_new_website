@@ -13,6 +13,9 @@ import VideoPopup from '../components/VideoPopup'
 import Testimonial from '../components/Testimonial'
 import Blog from '../components/Blog'
 import CardTeach from '../components/CardTeach'
+import BlogCard from '../components/Blogcard'
+import { Link } from 'react-router'
+
 
 const Home = () => {
   return (
@@ -36,12 +39,16 @@ const Home = () => {
                 compassionate, lifelong learners.
               </p>
               <div className='py-5 flex justify-start gap-5'>
-                <button className='bg-[#fefcfc] text-[#7b68ee] rounded-[50px] shadow-xl/30 px-9 py-3'>
-                  Enroll Now
-                </button>
-                <button className='bg-[#7b68ee] text-white rounded-[50px] shadow-xl/30 px-9 py-3'>
-                  Careers
-                </button>
+                <Link to={'/contact'}>
+                  <button className='bg-[#fefcfc] text-[#7b68ee] rounded-[50px] shadow-xl/30 px-9 py-3 cursor-pointer'>
+                    Enroll Now
+                  </button>
+                </Link>
+                <Link to={'/gallery'}>
+                  <button className='bg-[#7b68ee] text-white rounded-[50px] shadow-xl/30 px-9 py-3 cursor-pointer'>
+                    Gallery
+                  </button>
+                </Link>
               </div>
             </div>
             <div className='right md:w-1/2 w-full h-auto md:relative md:top-30 relative top-10'>
@@ -58,7 +65,7 @@ const Home = () => {
             <div className='md:flex md:justify-around items-start gap-0'>
               <div className='left md:w-1/2 w-full md:relative md:top-[250px] relative top-10 md:px-20 px-5'>
                 <p className='text-[#95c535] md:text-[18px] text-base uppercase font-bold'>
-                  Welcome To Pre School
+                  Welcome To Carnival kids
                 </p>
                 <h4 className='md:text-5xl text-3xl font-bold py-3'>
                   Why Choose Montessori Education?
@@ -80,9 +87,11 @@ const Home = () => {
                   and social growth in a joyful setting.
                 </p>
                 <div className='md:py-5 py-5 flex justify-start gap-5'>
-                  <button className='bg-[#7b68ee] text-white rounded-[50px] shadow-xl/30 px-9 py-3'>
-                    Learn more
-                  </button>
+                  <Link to={'/curriculum'}>
+                    <button className='bg-[#7b68ee] text-white rounded-[50px] shadow-xl/30 px-9 py-3 cursor-pointer'>
+                      Learn more
+                    </button>
+                  </Link>
                 </div>
               </div>
               <div className='right md:w-1/2 max-w-fit md:relative md:top-60 md:left-0 left-5 relative top-20 p-1'>
@@ -91,11 +100,11 @@ const Home = () => {
                   alt=''
                   className='w-10/12 h-10/12 object-cover'
                 />
-                <div className='toolTip bg-white flex justify-start gap-2 w-[300px] rounded-[10px] shadow-2xl md:relative md:-top-30 md:left-30 relative left-10 -top-30 py-2'>
+                <div className='toolTip bg-white flex justify-start gap-2 w-[300px] rounded-[10px] shadow-2xl md:relative md:-top-30 md:left-30 relative left-0 -top-30 py-2'>
                   <img src={SmallImg} alt='' className='w-[150px] px-5' />
                   <div>
                     <h4 className='md:text-5xl text-5xl font-bold text-[#95c535]'>
-                      2003
+                      2014
                     </h4>
                     <h6 className='text-[18px]'>School Since</h6>
                   </div>
@@ -104,7 +113,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className='md:pt-15'>
+        <section className='md:pt-15 pt-20'>
           <div className='bg-[#f6f5ff] py-10 text-center'>
             <h1 className='text-[#95c535] text-[18px] uppercase font-bold md:pt-5 pt-3'>
               On Going Classes
@@ -120,7 +129,7 @@ const Home = () => {
           <div className='bg-[#5c84eb] text-white pt-30 pb-10'>
             <div className=' md:flex justify-around'>
               <div className='text-center '>
-                <p className='text-6xl font-bold'>20+</p>
+                <p className='text-6xl font-bold'>10+</p>
                 <p className='text-[20px]'>Years of Experience</p>
                 <img
                   src={IconImg1}
@@ -129,7 +138,7 @@ const Home = () => {
                 />
               </div>
               <div className='text-center'>
-                <p className='text-6xl font-bold'>100+</p>
+                <p className='text-6xl font-bold'>5+</p>
                 <p className='text-[20px]'>Qualified Teachers</p>
                 <img
                   src={IconImg1}
@@ -138,7 +147,7 @@ const Home = () => {
                 />
               </div>
               <div className='text-center'>
-                <p className='text-6xl font-bold'>1500+</p>
+                <p className='text-6xl font-bold'>100+</p>
                 <p className='text-[20px]'>Students Enrolled</p>
                 <img
                   src={IconImg1}
@@ -147,7 +156,7 @@ const Home = () => {
                 />
               </div>
               <div className='text-center'>
-                <p className='text-6xl font-bold'>20+</p>
+                <p className='text-6xl font-bold'>10+</p>
                 <p className='text-[20px]'>Total Award</p>
                 <img
                   src={IconImg1}
@@ -158,11 +167,11 @@ const Home = () => {
             </div>
           </div>
         </section>
-         <section className='md:pt-15'>
+        <section className='md:pt-0'>
           <div className='bg-[#f6f5ff] py-10 text-center'>
-           
             <h4 className='md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5'>
-              At Carnival Kids, we don’t just teach – we inspire a love for learning!
+              At Carnival Kids, we don’t just teach <br /> we inspire a{' '}
+              <span className='text-[#7b5bff]'> love for learning!</span>
             </h4>
             <CardTeach />
           </div>
@@ -177,36 +186,39 @@ const Home = () => {
                 Why Choose us?
               </p>
               <h2 className='md:text-5xl text-3xl font-semibold py-2'>
-                We Are Here to Help Parents Raise Happy and Healthy Children
+                Montessori Learning,<span className='text-[#7b5bff]'> Joyful Growing</span>
               </h2>
               <p className='text-[18px] py-2'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                At Cranival Kids, we go beyond teaching—we create a joyful,
+                nurturing environment where every child feels valued and
+                inspired to learn. Our Montessori-based approach ensures that
+                each child grows at their own pace while developing confidence,
+                curiosity, and lifelong learning habits.
               </p>
               <div className='md:grid md:grid-cols-2 grid grid-cols-1 gap-5 md:gap-8 py-5'>
                 <div className='shadow-2xl bg-[#ffffff] p-4 border-l-amber-400 border-l-2 rounded-2xl'>
                   <p className='md:text-[18px] text-[20px]'>
-                    🌟 Daily Creativity
+                    🌟 Experienced & Caring Educators
                   </p>
                 </div>
                 <div className='shadow-2xl bg-[#ffffff] p-4 border-l-amber-400 border-l-2 rounded-2xl'>
                   <p className='md:text-[18px] text-[20px]'>
-                    🌟 Daily Creativity
+                    🌟 Safe & Supportive Environment
                   </p>
                 </div>
                 <div className='shadow-2xl bg-[#ffffff] p-4 border-l-amber-400 border-l-2 rounded-2xl'>
                   <p className='md:text-[18px] text-[20px]'>
-                    🌟 Daily Creativity
+                    🌟 Holistic Development
                   </p>
                 </div>
                 <div className='shadow-2xl bg-[#ffffff] p-4 border-l-amber-400 border-l-2 rounded-2xl'>
                   <p className='md:text-[18px] text-[20px]'>
-                    🌟 Daily Creativity
+                    🌟 Individual Attention
                   </p>
                 </div>
                 <div className='shadow-2xl bg-[#ffffff] p-4 border-l-amber-400 border-l-2 rounded-2xl'>
                   <p className='md:text-[18px] text-[20px]'>
-                    🌟 Daily Creativity
+                    🌟 Engaging Activities & Co-Curriculum
                   </p>
                 </div>
               </div>
@@ -234,14 +246,12 @@ const Home = () => {
 
         {/* Testimonial Sections */}
         <section>
-          <div className=' py-0 text-center'>
-            <h1 className='text-[#95c535] text-[18px] uppercase font-bold md:pt-5 pt-3'>
-              Team Member
-            </h1>
+          <div className=' py-5 text-center'>
+
             <h4 className='md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5'>
-              Expert Teacher
+              Testimonials
             </h4>
-            <div className='py-10'>
+            <div className='py-5'>
               <Testimonial />
             </div>
           </div>
@@ -256,13 +266,16 @@ const Home = () => {
               Recent Blog
             </h4>
             <div className='py-10'>
-              <Blog />
+
+              <BlogCard />
             </div>
             <div className='py-5 flex justify-center cursor-pointer'>
               {/* Desktop Button */}
-              <button className='md:block bg-[#7b5bff] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#6b4bf8] transition cursor-pointe'>
-                View More Blog
-              </button>
+              <Link to={'/blog'}>
+                <button className='md:block bg-[#7b5bff] text-white px-6 py-2 rounded-full shadow-md hover:bg-[#6b4bf8] cursor-pointer transition cursor-pointe'>
+                  View More Blog
+                </button>
+              </Link>
             </div>
           </div>
         </section>

@@ -10,9 +10,9 @@ const About = () => {
     <>
       <div className='bg-abt'>
         <Header />
-        <div className='md:relative md:top-1/3 md:left-20 relative top-30 left-5 md:w-1/3 w-full'>
+        <div className='md:relative md:top-1/3 md:left-20 relative top-30 left-5 md:w-1/3 w-full hidden md:block'>
           <h2 className='md:text-5xl text-3xl font-bold'>
-            learn through hands-on{' '}
+            Learn through hands-on{' '}
             <span className='text-[#007aff]'> experiences,</span>
             independence, and<span className='text-[#75389f]'> play.</span>
           </h2>
@@ -68,7 +68,7 @@ const About = () => {
                   “Enroll today and unlock a world of knowledge with IMF
                   School’s trusted registration process.”
                 </p>
-                <a href='#' className='text-[#007aff] font-bold py-3'>
+                <a href='https://montessori-india.org/flagship-schools/' className='text-[#007aff] font-bold py-3'>
                   Link
                 </a>
               </div>
@@ -78,7 +78,7 @@ const About = () => {
       </div>
       <div className='bg-bottom py-20'>
         <div className='md:px-20 px-5'>
-          <h5 className='text-white md:text-5xl text-3xl md:w-1/2 w-full'>
+          <h5 className='text-white md:text-5xl text-3xl md:w-10/12 w-full'>
             Children are naturally interested in activities that are done in the
             day to day living like sweeping, mopping or washing clothes etc
           </h5>

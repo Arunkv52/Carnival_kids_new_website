@@ -28,7 +28,7 @@ const Contact = () => {
           <h1 className='text-5xl font-bold text-center'>Contact</h1>
           <p className='text-base text-center py-2'>
             kindergarten is an early childhood educational environment where
-            young children, <br /> typically aged 4 to 6, engage in playful
+            young children, <br /> typically aged 2 to 6, engage in playful
             learning.
           </p>
         </div>

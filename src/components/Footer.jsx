@@ -6,6 +6,8 @@ import { FaXTwitter } from 'react-icons/fa6'
 import { BsYoutube } from 'react-icons/bs'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { MdOutlineMarkEmailUnread } from 'react-icons/md'
+import { Link } from 'react-router'
+
 
 const Footer = () => {
   return (
@@ -24,18 +26,27 @@ const Footer = () => {
             </p>
             <div className='social py-5'>
               <ul className='md:flex flex justify-start items-center gap-2'>
-                <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                  <FaFacebookF />
-                </li>
-                <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                  <FaInstagram />
-                </li>
-                <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                  <FaXTwitter />
-                </li>
-                <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                  <BsYoutube />
-                </li>
+                <a href="https://www.facebook.com/people/Carnival-Kids-Montessori/100057778115140/">
+                  <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
+                    <FaFacebookF />
+                  </li>
+                </a>
+                <a href="https://www.instagram.com/carnival_kids_montessori/">
+                  <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
+                    <FaInstagram />
+                  </li>
+                </a>
+                <a href="#">
+                  <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
+                    <FaXTwitter />
+                  </li>
+                </a>
+                <a href="#">
+
+                  <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
+                    <BsYoutube />
+                  </li>
+                </a>
               </ul>
             </div>
           </div>
@@ -43,11 +54,15 @@ const Footer = () => {
             <div className='social md:py-2 py-5'>
               <h6 className='text-2xl font-semibold'>Quick links</h6>
               <ul className='py-2'>
-                <li className='py-2'>About</li>
-                <li className='py-2'>Curriculam</li>
-                <li className='py-2'>Gallery</li>
-                <li className='py-2'>Blog</li>
-                <li className='py-2'>Contact</li>
+                <li className='py-2 cursor-pointer'>
+                  <Link to={'/about'}>
+                    About
+                  </Link>
+                </li>
+                <li className='py-2 cursor-pointer'> <Link to={'/curriculum'}>Curriculam</Link></li>
+                <li className='py-2 cursor-pointer'> <Link to={'/gallery'}>Gallery</Link></li>
+                <li className='py-2 cursor-pointer'> <Link to={'/blog'}>Blog</Link></li>
+                <li className='py-2 cursor-pointer'> <Link to={'/contact'}>Contact</Link></li>
               </ul>
             </div>
           </div>

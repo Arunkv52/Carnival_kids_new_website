@@ -13,34 +13,34 @@ import ReviewImg from '../assets/testimonial-3.jpg'
 
 const Testimonial = () => {
 
-    const reviews = [{
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.',
-        image: ReviewImg,
-        reviwername: 'Stevie Wills',
+    const reviews = [ {
+        review: 'Unbelievable performance from carnival kids.. Absolutely fantastic on teaching method.. Best place to mould the children',
+        // image: ReviewImg,
+        reviwername: 'Sathish',
+        city: 'Coimbatore'
+
+    },{
+        review: 'I am very pleased about the school. Well discipline and peaceful atmosphere, recommend to others. My daughter is always happy to come to school.',
+        // image: ReviewImg,
+        reviwername: 'Krithika deepan',
         city: 'Coimbatore'
 
     }, {
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.',
-        image: ReviewImg,
-        reviwername: 'Stevie Wills',
+        review: 'Excellent coaching & very good atmosphere.',
+        // image: ReviewImg,
+        reviwername: 'A. Arul Kumaran',
         city: 'Coimbatore'
 
     }, {
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.',
-        image: ReviewImg,
-        reviwername: 'Stevie Wills',
+        review: 'Very good atmosphere and excellent coaching',
+        // image: ReviewImg,
+        reviwername: 'Uma Maheswari',
         city: 'Coimbatore'
 
     }, {
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.',
-        image: ReviewImg,
-        reviwername: 'Stevie Wills',
-        city: 'Coimbatore'
-
-    }, {
-        review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation.',
-        image: ReviewImg,
-        reviwername: 'Stevie Wills',
+        review: 'Methods are good',
+        // image: ReviewImg,
+        reviwername: 'Maheswaran',
         city: 'Coimbatore'
 
     }]
