@@ -1,11 +1,12 @@
 import React from 'react'
-import FooterImg from '../assets/footer.png'
+import FooterImg from '../assets/footer-item.png'
 import Logo from '../assets/logo.png'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { BsYoutube } from 'react-icons/bs'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { MdOutlineMarkEmailUnread } from 'react-icons/md'
+import { FaLocationDot } from "react-icons/fa6";
 import { Link } from 'react-router'
 
 
@@ -36,15 +37,10 @@ const Footer = () => {
                     <FaInstagram />
                   </li>
                 </a>
-                <a href="#">
+              
+                <a href="https://maps.app.goo.gl/7rZyrxPYj4PjqV6dA">
                   <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                    <FaXTwitter />
-                  </li>
-                </a>
-                <a href="#">
-
-                  <li className='bg-[#7b68ee] p-4 text-white max-w-fit rounded-[10px] cursor-pointer'>
-                    <BsYoutube />
+                    <FaLocationDot />
                   </li>
                 </a>
               </ul>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import AboutImg from '../assets/mathematics_class.jpg'
-import Physical from '../assets/class-2.jpg'
-import English from '../assets/class-3.jpg'
+import AboutImg from '../assets/New-img/explore.jpg'
+import Physical from '../assets/New-img/Banner-2.webp'
+import English from '../assets/New-img/2.webp'
 
 const CardTeach = () => {
 
@@ -21,7 +21,7 @@ const CardTeach = () => {
         {
             cardtitle: 'Learn at Own Pace',
             cardparagraph: 'Hands-on Montessori methods encourage independence and personalized learning.',
-            image: Physical,
+            image: English,
            
         },
         ]

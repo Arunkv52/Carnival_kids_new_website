@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import ImgRight from '../assets/home-font.png'
-import BgStudy from '../assets/bg-study-shape.jpg'
+import BgStudy from '../assets/iCloud/1.jpeg'
 import SmallImg from '../assets/about-sub.jpg'
 import Card from '../components/CardItem'
 import CardItem from '../components/CardItem'
@@ -15,7 +15,7 @@ import Blog from '../components/Blog'
 import CardTeach from '../components/CardTeach'
 import BlogCard from '../components/Blogcard'
 import { Link } from 'react-router'
-
+import ColorfulTitle from '../components/ColorFullTitle'
 
 const Home = () => {
   return (
@@ -30,6 +30,7 @@ const Home = () => {
               </p>
               <h4 className='md:text-6xl text-4xl font-bold py-3'>
                 Welcome to Carnival Kids
+
                 <span className='text-[#7b68ee]'> Montessori</span>
               </h4>
               <p>
@@ -65,7 +66,7 @@ const Home = () => {
             <div className='md:flex md:justify-around items-start gap-0'>
               <div className='left md:w-1/2 w-full md:relative md:top-[250px] relative top-10 md:px-20 px-5'>
                 <p className='text-[#95c535] md:text-[18px] text-base uppercase font-bold'>
-                  Welcome To Carnival kids
+                <ColorfulTitle />
                 </p>
                 <h4 className='md:text-5xl text-3xl font-bold py-3'>
                   Why Choose Montessori Education?
@@ -186,10 +187,11 @@ const Home = () => {
                 Why Choose us?
               </p>
               <h2 className='md:text-5xl text-3xl font-semibold py-2'>
-                Montessori Learning,<span className='text-[#7b5bff]'> Joyful Growing</span>
+                Montessori Learning,
+                <span className='text-[#7b5bff]'> Joyful Growing</span>
               </h2>
               <p className='text-[18px] py-2'>
-                At Cranival Kids, we go beyond teaching—we create a joyful,
+                At Carnival Kids, we go beyond teaching—we create a joyful,
                 nurturing environment where every child feels valued and
                 inspired to learn. Our Montessori-based approach ensures that
                 each child grows at their own pace while developing confidence,
@@ -247,7 +249,6 @@ const Home = () => {
         {/* Testimonial Sections */}
         <section>
           <div className=' py-5 text-center'>
-
             <h4 className='md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5'>
               Testimonials
             </h4>
@@ -266,7 +267,6 @@ const Home = () => {
               Recent Blog
             </h4>
             <div className='py-10'>
-
               <BlogCard />
             </div>
             <div className='py-5 flex justify-center cursor-pointer'>

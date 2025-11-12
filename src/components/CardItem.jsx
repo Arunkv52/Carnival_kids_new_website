@@ -1,8 +1,8 @@
 import React from 'react'
 
-import AboutImg from '../assets/mathematics_class.jpg'
-import Physical from '../assets/class-2.jpg'
-import English from '../assets/class-3.jpg'
+import AboutImg from '../assets/New-img/9.webp'
+import Physical from '../assets/New-img/4.webp'
+import English from '../assets/New-img/english.webp'
 
 const CardItem = () => {
 
@@ -31,7 +31,7 @@ const CardItem = () => {
         {
             cardtitle: 'English Class',
             cardparagraph: 'Children learn to express their thoughts clearly, build vocabulary, improve pronunciation, and gain confidence in communication—skills that prepare them for higher learning and everyday life.',
-            image: Physical,
+            image: English,
             age: '2 to 3 years Pre Mont',
             age1: '3 to 4 years Mont 1',
             age2: '4 to 5 years Mont 2',
