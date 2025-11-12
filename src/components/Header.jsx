@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Karnival-Kids-Logo_1.jpg'
 import { Link } from 'react-router'
 
 const Header = () => {

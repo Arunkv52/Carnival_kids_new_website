@@ -1,6 +1,6 @@
 import React from 'react'
 import FooterImg from '../assets/footer-item.png'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Karnival-Kids-Logo_1.png'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { BsYoutube } from 'react-icons/bs'
