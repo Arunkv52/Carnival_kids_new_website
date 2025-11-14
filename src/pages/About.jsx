@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import '../App.css'
-import AboutImg from '../assets/about-1.jpg'
+import AboutImg from '../assets/about-bg.png'
 import AmiLogo from '../assets/ami-logo.png'
 import Footer from '../components/Footer'
 
@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </div>
       <div className='md:px-40 px-5 py-20 md:flex justify-around items-start gap-0 bg-[#f4f4f4]'>
-        <div className='md:w-[40%] w-full'>
+        <div className='md:w-[60%] w-full'>
           <img src={AboutImg} alt='' />
         </div>
         <div className='md:w-[60%] w-full'>

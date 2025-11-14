@@ -29,9 +29,9 @@ import GalleryImg8 from '../assets/iCloud/FullSizeRender-3.jpeg'
 import GalleryImg9 from '../assets/iCloud/FullSizeRender.jpeg'
 import GalleryImg10 from '../assets/iCloud/IMG_0532.jpeg'
 
-import GalleryImg11 from '../assets/iCloud/IMG_0532.jpeg'
-import GalleryImg12 from '../assets/iCloud/IMG_0533.jpeg'
-import GalleryImg13 from '../assets/iCloud/IMG_0535.jpeg'
+import GalleryImg11 from '../assets/iCloud/IMG_0533.jpeg'
+import GalleryImg12 from '../assets/iCloud/IMG_0586.jpeg'
+import GalleryImg13 from '../assets/iCloud/IMG_0589.jpeg'
 import GalleryImg14 from '../assets/iCloud/IMG_0539.jpeg'
 import GalleryImg15 from '../assets/iCloud/IMG_0541.jpeg'
 
@@ -40,6 +40,18 @@ import GalleryImg17 from '../assets/iCloud/IMG_0564.jpeg'
 import GalleryImg18 from '../assets/iCloud/IMG_0567.jpeg'
 import GalleryImg19 from '../assets/iCloud/IMG_0573.jpeg'
 import GalleryImg20 from '../assets/iCloud/IMG_0582.jpeg'
+
+import GalleryImg21 from '../assets/iCloud/IMG_0586.jpeg'
+import GalleryImg22 from '../assets/iCloud/IMG_0589.jpeg'
+import GalleryImg23 from '../assets/iCloud/IMG_0604.jpeg'
+import GalleryImg24 from '../assets/iCloud/IMG_0619.jpeg'
+import GalleryImg25 from '../assets/iCloud/IMG_0636.jpeg'
+
+import GalleryImg26 from '../assets/iCloud/IMG_0646.jpeg'
+import GalleryImg27 from '../assets/iCloud/IMG_0652.jpeg'
+import GalleryImg28 from '../assets/iCloud/IMG_0660.jpeg'
+import GalleryImg29 from '../assets/iCloud/IMG_0683.jpeg'
+import GalleryImg30 from '../assets/iCloud/IMG_0686.jpeg'
 
 const LightGalleryItem = () => {
   const onInit = () => {
@@ -55,7 +67,7 @@ const LightGalleryItem = () => {
           plugins={[lgThumbnail, lgZoom]}
           elementClassNames='md:grid md:grid-cols-3 md:gap-5 md:px-20 px-5 grid grid-cols-1 gap-10'
         >
-          <a href={GalleryImg1}>
+          {/* <a href={GalleryImg1}>
             <img alt='img1' src={GalleryImg1} className='rounded-2xl' />
           </a>
           <a href={GalleryImg2}>
@@ -69,13 +81,13 @@ const LightGalleryItem = () => {
           </a>
           <a href={GalleryImg5}>
             <img alt='img2' src={GalleryImg5} className='rounded-2xl' />
-          </a>
+          </a> */}
           <a href={GalleryImg6}>
             <img alt='' src={GalleryImg6} className='rounded-2xl' />
           </a>
-          <a href={GalleryImg7}>
+          {/* <a href={GalleryImg7}>
             <img alt='' src={GalleryImg7} className='rounded-2xl' />
-          </a>
+          </a> */}
           <a href={GalleryImg8}>
             <img alt='' src={GalleryImg8} className='rounded-2xl' />
           </a>{' '}
@@ -85,9 +97,9 @@ const LightGalleryItem = () => {
           <a href={GalleryImg10}>
             <img alt='' src={GalleryImg10} className='rounded-2xl' />
           </a>{' '}
-          <a href={GalleryImg11}>
+          {/* <a href={GalleryImg11}>
             <img alt='' src={GalleryImg11} className='rounded-2xl' />
-          </a>{' '}
+          </a>{' '} */}
           <a href={GalleryImg12}>
             <img alt='' src={GalleryImg12} className='rounded-2xl' />
           </a>{' '}
@@ -97,15 +109,57 @@ const LightGalleryItem = () => {
           <a href={GalleryImg14}>
             <img alt='' src={GalleryImg14} className='rounded-2xl' />
           </a>{' '}
-          <a href={GalleryImg15}>
+          {/* <a href={GalleryImg15}>
             <img alt='' src={GalleryImg15} className='rounded-2xl' />
-          </a>{' '}
-          <a href={GalleryImg16}>
+          </a>{' '} */}
+          {/* <a href={GalleryImg16}>
             <img alt='' src={GalleryImg16} className='rounded-2xl' />
-          </a>{' '}
+          </a>{' '} */}
           <a href={GalleryImg17}>
             <img alt='' src={GalleryImg17} className='rounded-2xl' />
           </a>
+           {/* <a href={GalleryImg18}>
+            <img alt='' src={GalleryImg18} className='rounded-2xl' />
+          </a>{' '} */}
+          <a href={GalleryImg19}>
+            <img alt='' src={GalleryImg19} className='rounded-2xl' />
+          </a>{' '}
+          <a href={GalleryImg20}>
+            <img alt='' src={GalleryImg20} className='rounded-2xl' />
+          </a>
+
+
+          {/* <a href={GalleryImg21}>
+            <img alt='' src={GalleryImg21} className='rounded-2xl' />
+          </a>{' '} */}
+          <a href={GalleryImg22}>
+            <img alt='' src={GalleryImg22} className='rounded-2xl' />
+          </a>
+          <a href={GalleryImg23}>
+            <img alt='' src={GalleryImg23} className='rounded-2xl' />
+          </a>{' '}
+          <a href={GalleryImg24}>
+            <img alt='' src={GalleryImg24} className='rounded-2xl' />
+          </a>
+          <a href={GalleryImg25}>
+            <img alt='' src={GalleryImg25} className='rounded-2xl' />
+          </a>{' '}
+          <a href={GalleryImg26}>
+            <img alt='' src={GalleryImg26} className='rounded-2xl' />
+          </a>
+          <a href={GalleryImg27}>
+            <img alt='' src={GalleryImg27} className='rounded-2xl' />
+          </a>{' '}
+          <a href={GalleryImg28}>
+            <img alt='' src={GalleryImg28} className='rounded-2xl' />
+          </a>
+          <a href={GalleryImg29}>
+            <img alt='' src={GalleryImg29} className='rounded-2xl' />
+          </a>{' '}
+          <a href={GalleryImg30}>
+            <img alt='' src={GalleryImg30} className='rounded-2xl' />
+          </a>
+          
         </LightGallery>
       </div>
     </>

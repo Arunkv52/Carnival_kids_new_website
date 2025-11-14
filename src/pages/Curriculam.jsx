@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import Header from '../components/Header'
-import curriculumImg from '../assets/about-04.png'
+import curriculumImg from '../assets/curriculum-next.png'
 import Icon_34 from '../assets/34.svg'
 import VideoPopup from '../components/VideoPopup'
 import Footer from '../components/Footer'

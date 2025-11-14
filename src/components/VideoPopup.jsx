@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Img1 from '../assets/New-img/1.webp'
+import Video from '../assets/iCloud/videos/video.mp4'
 
 const VideoSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ const VideoSection = () => {
       >
         {/* Static thumbnail image */}
         <img
-          src="https://img.youtube.com/vi/CpD2VtPNIaY/maxresdefault.jpg"
+          src={Img1}
           alt="YouTube Video"
           className="w-full h-dvh object-cover"
         />
@@ -41,7 +43,7 @@ const VideoSection = () => {
             <iframe
               width="100%"
               height="500"
-              src="https://www.youtube.com/embed/CpD2VtPNIaY?autoplay=1"
+              src={Video}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
