@@ -1,5 +1,5 @@
 import React from 'react'
-import TeacherImg from '../assets/Teacher-img.jpg'
+import TeacherImg from '../assets/gallery/managing-director.jpeg'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { BsYoutube } from 'react-icons/bs'
@@ -7,29 +7,24 @@ import { BsYoutube } from 'react-icons/bs'
 const TeachersList = () => {
     const teachers = [
         {
-            name: 'Ava Farrington',
+            name: 'Vidhya',
             position: 'Teacher',
             image: TeacherImg
         },
         {
-            name: 'Ava Farrington',
+            name: 'Vidhya',
             position: 'Teacher',
             image: TeacherImg
         },
         {
-            name: 'Ava Farrington',
-            position: 'Teacher',
-            image: TeacherImg
-        },
-        {
-            name: 'Ava Farrington',
+            name: 'Vidhya',
             position: 'Teacher',
             image: TeacherImg
         }
     ]
     return (
         <>
-            <div className="md:grid md:grid-cols-4 grid grid-cols-1 gap-10 md:px-20">
+            <div className="md:grid md:grid-cols-3 grid grid-cols-1 gap-10 md:px-20">
                 {teachers.map((item, index) => (
                     <div
                         key={index}

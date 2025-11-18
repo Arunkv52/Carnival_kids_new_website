@@ -55,7 +55,7 @@ const Footer = () => {
                     About
                   </Link>
                 </li>
-                <li className='py-2 cursor-pointer'> <Link to={'/curriculum'}>Curriculam</Link></li>
+                <li className='py-2 cursor-pointer'> <Link to={'/curriculum'}>Curriculum</Link></li>
                 <li className='py-2 cursor-pointer'> <Link to={'/gallery'}>Gallery</Link></li>
                 <li className='py-2 cursor-pointer'> <Link to={'/blog'}>Blog</Link></li>
                 <li className='py-2 cursor-pointer'> <Link to={'/contact'}>Contact</Link></li>
