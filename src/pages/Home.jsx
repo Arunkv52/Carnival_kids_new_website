@@ -230,9 +230,7 @@ const Home = () => {
         {/* Teacher List */}
         <section>
           <div className="bg-[#f6f5ff] md:py-20 text-center md:p-0 p-5">
-            <h1 className="text-[#95c535] text-[18px] uppercase font-bold md:pt-5 pt-3">
-              Team Member
-            </h1>
+            
             <h4 className="md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5">
               Expert Teacher
             </h4>

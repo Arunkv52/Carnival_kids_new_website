@@ -8,19 +8,10 @@ const TeachersList = () => {
     const teachers = [
         {
             name: 'Vidhya',
-            position: 'Teacher',
-            image: TeacherImg
-        },
-        {
-            name: 'Vidhya',
-            position: 'Teacher',
-            image: TeacherImg
-        },
-        {
-            name: 'Vidhya',
-            position: 'Teacher',
+            position: 'Director/Teacher',
             image: TeacherImg
         }
+        
     ]
     return (
         <>
