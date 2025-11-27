@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
   height: auto;
 }
 .curriculam-bg {
-  background: url(./assets/curriculum.png);
+  background: url(./assets/curriculum.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;

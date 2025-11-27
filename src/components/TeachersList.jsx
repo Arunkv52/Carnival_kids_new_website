@@ -8,7 +8,7 @@ const TeachersList = () => {
     const teachers = [
         {
             name: 'Vidhya',
-            position: 'Director/Teacher',
+            position: 'Director / Teacher',
             image: TeacherImg
         }
         

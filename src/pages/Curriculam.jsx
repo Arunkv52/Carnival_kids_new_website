@@ -21,9 +21,9 @@ const Curriculam = () => {
       <div className="curriculam-bg">
         <Header />
         <div className=" px-15 w-full py-20 hidden md:block">
-          <h2 className="md:text-5xl text-2xl text-left md:relative md:top-20 md:left-[60%] relative top-12 -left-5  font-bold ">
-            Welcome to our <br />
-            <span className="text-[#7b5bff] text-6xl">child care school</span>
+          <h2 className="md:text-5xl text-2xl text-left md:relative md:top-12 md:left-[60%] relative top-12 -left-5  font-bold ">
+           "Welcome! <br /><span className="text-[#7b5bff] text-5xl"> The Montessori<br />
+             Journey begins here"</span>
           </h2>
         </div>
       </div>
@@ -33,8 +33,8 @@ const Curriculam = () => {
         </div>
         <div className="md:w-1/2 w-full">
           <h5 className="md:text-5xl text-4xl font-bold">
-            A Child-Centered Montessori
-            <span className="text-[#7b5bff]"> Learning Journey</span>
+            A Child-Centered 
+            <span className="text-[#7b5bff]"> Montessori Learning Journey</span>
           </h5>
           <p className="py-5">
             At Carnival Kids, our curriculum is rooted in the Montessori
