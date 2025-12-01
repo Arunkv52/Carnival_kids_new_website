@@ -29,8 +29,8 @@ const Home = () => {
                 Play. <span className="text-[#7b68ee]">Learn.</span> Grow
               </p>
               <h4 className="md:text-6xl text-4xl font-bold py-3">
-                Welcome to Carnival Kids
-                <span className="text-[#7b68ee]"> Montessori</span>
+                Welcome to
+                <span className="text-[#7b68ee]"> Carnival Kids Montessori</span>
               </h4>
               <p>
                 We believe every child is naturally curious, capable, and eager
@@ -119,8 +119,8 @@ const Home = () => {
             <h1 className="text-[#95c535] text-[18px] uppercase font-bold md:pt-5 pt-3">
               On Going Classes
             </h1>
-            <h4 className="md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5">
-              Popular Classes
+            <h4 className="md:text-3xl text-3xl font-bold pt-5 md:pb-10 pb-5">
+              Pre-Mont Age 2 to 3 years, Mont 1 Age 3 to 4 years, Mont 2 Age 4 to 5 years , Mont 3 Age 5 to 6 years
             </h4>
             <CardItem />
           </div>
@@ -158,7 +158,7 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <p className="text-6xl font-bold">10+</p>
-                <p className="text-[20px]">Total Award</p>
+                <p className="text-[20px]">IMF Flagship School</p>
                 <img
                   src={IconImg1}
                   alt=""
@@ -171,7 +171,7 @@ const Home = () => {
         <section className="md:pt-0">
           <div className="bg-[#f6f5ff] py-10 text-center">
             <h4 className="md:text-5xl text-3xl font-bold pt-5 md:pb-10 pb-5">
-              At Carnival Kids, we don’t just teach <br /> we inspire a{" "}
+              At <span className="text-[#7b5bff]">Carnival Kids,</span> we don’t just teach <br /> we inspire a{" "}
               <span className="text-[#7b5bff]"> love for learning!</span>
             </h4>
             <CardTeach />

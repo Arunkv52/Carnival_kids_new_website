@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AboutImg from '../assets/New-img/9.webp'
+import AboutImg from '../assets/New-img/close-up.jpg'
 import Physical from '../assets/New-img/4.webp'
 import English from '../assets/New-img/english.webp'
 

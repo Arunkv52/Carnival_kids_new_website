@@ -22,7 +22,7 @@ const Footer = () => {
             <img src={Logo} alt='Rainbow Footer' className='md:w-40 w-50 mb-4' />
             <p className='text-[18px]'>
               Where curiosity meets creativity, and learning becomes a joyful
-              journey. Together, we nurture confident, independent, and
+              journey. Together, we nurture confident, independence, and
               compassionate young minds..
             </p>
             <div className='social py-5'>
